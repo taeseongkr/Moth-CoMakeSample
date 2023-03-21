@@ -1,0 +1,234 @@
+2023/03/19 11:15:37 main.go:440: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.20.0.1:53840
+2023/03/19 11:15:37 api-pang-ws.go:141: IN PangWSPublisher: {base} {video bundle mono group }
+2023/03/19 11:15:37 data-base.go:180: milli 0 => 1ms 30s
+2023/03/19 11:15:37 api-pang-ws.go:459: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/19 11:15:37 api-pang-ws.go:533: i.recvTrackBufferInMessage: video
+2023/03/19 11:15:37 api-pang-ws.go:565: i.sendTrackBufferInMessage: video
+2023/03/19 11:15:46 api-pang-ws.go:545: websocket: close 1001 (going away)
+2023/03/19 11:15:46 api-pang-ws.go:546: o.recvTrackBufferInMessage: <nil>
+2023/03/19 11:15:46 api-pang-ws.go:614: o.sendTrackBufferInMessage: <nil>
+2023/03/19 11:15:46 api-pang-ws.go:490: o.handlBuffersByPangWSAPI: <nil>
+2023/03/19 11:15:46 api-pang-ws.go:195: OUT PangWSPublisher: <nil>
+2023/03/19 11:15:46 main.go:447: websocket: close 1001 (going away)
+2023/03/19 11:15:46 main.go:497: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/19 11:15:47 main.go:440: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.20.0.1:44348
+2023/03/19 11:15:47 api-pang-ws.go:141: IN PangWSPublisher: {base} {video bundle mono group }
+2023/03/19 11:15:47 data-base.go:180: milli 0 => 1ms 30s
+2023/03/19 11:15:47 api-pang-ws.go:459: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/19 11:15:47 api-pang-ws.go:533: i.recvTrackBufferInMessage: video
+2023/03/19 11:15:47 api-pang-ws.go:565: i.sendTrackBufferInMessage: video
+2023/03/19 11:16:17 api-pang-ws.go:545: read tcp 172.20.0.2:8276->172.20.0.1:44348: i/o timeout
+2023/03/19 11:16:17 api-pang-ws.go:546: o.recvTrackBufferInMessage: <nil>
+2023/03/19 11:16:17 api-pang-ws.go:490: o.handlBuffersByPangWSAPI: <nil>
+2023/03/19 11:16:17 api-pang-ws.go:614: o.sendTrackBufferInMessage: <nil>
+2023/03/19 11:16:17 api-pang-ws.go:195: OUT PangWSPublisher: <nil>
+2023/03/19 11:16:17 main.go:447: read tcp 172.20.0.2:8276->172.20.0.1:44348: i/o timeout
+2023/03/19 11:16:17 main.go:497: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/19 11:25:29 main.go:440: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.20.0.1:50252
+2023/03/19 11:25:29 api-pang-ws.go:141: IN PangWSPublisher: {base} {video bundle mono group }
+2023/03/19 11:25:29 data-base.go:180: milli 0 => 1ms 30s
+2023/03/19 11:25:29 api-pang-ws.go:459: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/19 11:25:29 api-pang-ws.go:533: i.recvTrackBufferInMessage: video
+2023/03/19 11:25:29 api-pang-ws.go:565: i.sendTrackBufferInMessage: video
+2023/03/19 11:25:59 api-pang-ws.go:545: read tcp 172.20.0.2:8276->172.20.0.1:50252: i/o timeout
+2023/03/19 11:25:59 api-pang-ws.go:546: o.recvTrackBufferInMessage: <nil>
+2023/03/19 11:25:59 api-pang-ws.go:490: o.handlBuffersByPangWSAPI: <nil>
+2023/03/19 11:25:59 api-pang-ws.go:195: OUT PangWSPublisher: <nil>
+2023/03/19 11:25:59 main.go:447: read tcp 172.20.0.2:8276->172.20.0.1:50252: i/o timeout
+2023/03/19 11:25:59 api-pang-ws.go:614: o.sendTrackBufferInMessage: <nil>
+2023/03/19 11:25:59 main.go:497: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/19 15:48:20 main.go:440: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.20.0.1:45258
+2023/03/19 15:48:20 api-pang-ws.go:141: IN PangWSPublisher: {base} {video bundle mono group }
+2023/03/19 15:48:20 data-base.go:180: milli 0 => 1ms 30s
+2023/03/19 15:48:20 api-pang-ws.go:459: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/19 15:48:20 api-pang-ws.go:533: i.recvTrackBufferInMessage: video
+2023/03/19 15:48:20 api-pang-ws.go:565: i.sendTrackBufferInMessage: video
+2023/03/19 15:48:50 api-pang-ws.go:545: read tcp 172.20.0.2:8276->172.20.0.1:45258: i/o timeout
+2023/03/19 15:48:50 api-pang-ws.go:546: o.recvTrackBufferInMessage: <nil>
+2023/03/19 15:48:50 api-pang-ws.go:490: o.handlBuffersByPangWSAPI: <nil>
+2023/03/19 15:48:50 api-pang-ws.go:614: o.sendTrackBufferInMessage: <nil>
+2023/03/19 15:48:50 api-pang-ws.go:195: OUT PangWSPublisher: <nil>
+2023/03/19 15:48:50 main.go:447: read tcp 172.20.0.2:8276->172.20.0.1:45258: i/o timeout
+2023/03/19 15:48:50 main.go:497: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/19 15:49:06 main.go:440: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.20.0.1:55798
+2023/03/19 15:49:06 api-pang-ws.go:141: IN PangWSPublisher: {base} {video bundle mono group }
+2023/03/19 15:49:06 data-base.go:180: milli 0 => 1ms 30s
+2023/03/19 15:49:06 api-pang-ws.go:459: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/19 15:49:06 api-pang-ws.go:533: i.recvTrackBufferInMessage: video
+2023/03/19 15:49:06 api-pang-ws.go:565: i.sendTrackBufferInMessage: video
+2023/03/19 15:49:19 api-pang-ws.go:545: websocket: close 1001 (going away)
+2023/03/19 15:49:19 api-pang-ws.go:546: o.recvTrackBufferInMessage: <nil>
+2023/03/19 15:49:19 api-pang-ws.go:490: o.handlBuffersByPangWSAPI: <nil>
+2023/03/19 15:49:19 api-pang-ws.go:195: OUT PangWSPublisher: <nil>
+2023/03/19 15:49:19 api-pang-ws.go:614: o.sendTrackBufferInMessage: <nil>
+2023/03/19 15:49:19 main.go:447: websocket: close 1001 (going away)
+2023/03/19 15:49:19 main.go:497: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/19 15:49:20 main.go:440: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.20.0.1:55938
+2023/03/19 15:49:20 api-pang-ws.go:141: IN PangWSPublisher: {base} {video bundle mono group }
+2023/03/19 15:49:20 data-base.go:180: milli 0 => 1ms 30s
+2023/03/19 15:49:20 api-pang-ws.go:459: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/19 15:49:20 api-pang-ws.go:533: i.recvTrackBufferInMessage: video
+2023/03/19 15:49:20 api-pang-ws.go:565: i.sendTrackBufferInMessage: video
+2023/03/19 15:49:37 api-pang-ws.go:545: websocket: close 1001 (going away)
+2023/03/19 15:49:37 api-pang-ws.go:546: o.recvTrackBufferInMessage: <nil>
+2023/03/19 15:49:37 api-pang-ws.go:490: o.handlBuffersByPangWSAPI: <nil>
+2023/03/19 15:49:37 api-pang-ws.go:614: o.sendTrackBufferInMessage: <nil>
+2023/03/19 15:49:37 api-pang-ws.go:195: OUT PangWSPublisher: <nil>
+2023/03/19 15:49:37 main.go:447: websocket: close 1001 (going away)
+2023/03/19 15:49:37 main.go:497: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/19 15:49:38 main.go:440: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.20.0.1:45352
+2023/03/19 15:49:38 api-pang-ws.go:141: IN PangWSPublisher: {base} {video bundle mono group }
+2023/03/19 15:49:38 data-base.go:180: milli 0 => 1ms 30s
+2023/03/19 15:49:38 api-pang-ws.go:459: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/19 15:49:38 api-pang-ws.go:533: i.recvTrackBufferInMessage: video
+2023/03/19 15:49:38 api-pang-ws.go:565: i.sendTrackBufferInMessage: video
+2023/03/19 15:50:03 api-pang-ws.go:545: websocket: close 1001 (going away)
+2023/03/19 15:50:03 api-pang-ws.go:546: o.recvTrackBufferInMessage: <nil>
+2023/03/19 15:50:03 api-pang-ws.go:490: o.handlBuffersByPangWSAPI: <nil>
+2023/03/19 15:50:03 api-pang-ws.go:195: OUT PangWSPublisher: <nil>
+2023/03/19 15:50:03 api-pang-ws.go:614: o.sendTrackBufferInMessage: <nil>
+2023/03/19 15:50:03 main.go:447: websocket: close 1001 (going away)
+2023/03/19 15:50:03 main.go:497: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/19 15:50:07 main.go:440: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.20.0.1:48556
+2023/03/19 15:50:07 api-pang-ws.go:141: IN PangWSPublisher: {base} {video bundle mono group }
+2023/03/19 15:50:07 data-base.go:180: milli 0 => 1ms 30s
+2023/03/19 15:50:07 api-pang-ws.go:459: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/19 15:50:07 api-pang-ws.go:533: i.recvTrackBufferInMessage: video
+2023/03/19 15:50:07 api-pang-ws.go:565: i.sendTrackBufferInMessage: video
+2023/03/19 15:50:14 api-pang-ws.go:545: websocket: close 1001 (going away)
+2023/03/19 15:50:14 api-pang-ws.go:546: o.recvTrackBufferInMessage: <nil>
+2023/03/19 15:50:14 api-pang-ws.go:490: o.handlBuffersByPangWSAPI: <nil>
+2023/03/19 15:50:14 api-pang-ws.go:195: OUT PangWSPublisher: <nil>
+2023/03/19 15:50:14 api-pang-ws.go:614: o.sendTrackBufferInMessage: <nil>
+2023/03/19 15:50:14 main.go:447: websocket: close 1001 (going away)
+2023/03/19 15:50:14 main.go:497: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/19 15:50:16 main.go:440: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.20.0.1:42430
+2023/03/19 15:50:16 api-pang-ws.go:141: IN PangWSPublisher: {base} {video bundle mono group }
+2023/03/19 15:50:16 data-base.go:180: milli 0 => 1ms 30s
+2023/03/19 15:50:16 api-pang-ws.go:459: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/19 15:50:16 api-pang-ws.go:533: i.recvTrackBufferInMessage: video
+2023/03/19 15:50:16 api-pang-ws.go:565: i.sendTrackBufferInMessage: video
+2023/03/19 15:50:21 api-pang-ws.go:545: websocket: close 1001 (going away)
+2023/03/19 15:50:21 api-pang-ws.go:546: o.recvTrackBufferInMessage: <nil>
+2023/03/19 15:50:21 api-pang-ws.go:490: o.handlBuffersByPangWSAPI: <nil>
+2023/03/19 15:50:21 api-pang-ws.go:195: OUT PangWSPublisher: <nil>
+2023/03/19 15:50:21 api-pang-ws.go:614: o.sendTrackBufferInMessage: <nil>
+2023/03/19 15:50:21 main.go:447: websocket: close 1001 (going away)
+2023/03/19 15:50:21 main.go:497: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/19 15:50:22 main.go:440: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.20.0.1:42442
+2023/03/19 15:50:22 api-pang-ws.go:141: IN PangWSPublisher: {base} {video bundle mono group }
+2023/03/19 15:50:22 data-base.go:180: milli 0 => 1ms 30s
+2023/03/19 15:50:22 api-pang-ws.go:459: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/19 15:50:22 api-pang-ws.go:533: i.recvTrackBufferInMessage: video
+2023/03/19 15:50:22 api-pang-ws.go:565: i.sendTrackBufferInMessage: video
+2023/03/19 15:50:52 api-pang-ws.go:545: read tcp 172.20.0.2:8276->172.20.0.1:42442: i/o timeout
+2023/03/19 15:50:52 api-pang-ws.go:546: o.recvTrackBufferInMessage: <nil>
+2023/03/19 15:50:52 api-pang-ws.go:490: o.handlBuffersByPangWSAPI: <nil>
+2023/03/19 15:50:52 api-pang-ws.go:195: OUT PangWSPublisher: <nil>
+2023/03/19 15:50:52 api-pang-ws.go:614: o.sendTrackBufferInMessage: <nil>
+2023/03/19 15:50:52 main.go:447: read tcp 172.20.0.2:8276->172.20.0.1:42442: i/o timeout
+2023/03/19 15:50:52 main.go:497: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/19 15:50:57 main.go:440: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.20.0.1:57022
+2023/03/19 15:50:57 api-pang-ws.go:141: IN PangWSPublisher: {base} {video bundle mono group }
+2023/03/19 15:50:57 data-base.go:180: milli 0 => 1ms 30s
+2023/03/19 15:50:57 api-pang-ws.go:459: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/19 15:50:57 api-pang-ws.go:533: i.recvTrackBufferInMessage: video
+2023/03/19 15:50:57 api-pang-ws.go:565: i.sendTrackBufferInMessage: video
+2023/03/19 15:50:58 api-pang-ws.go:545: websocket: close 1005 (no status)
+2023/03/19 15:50:58 api-pang-ws.go:546: o.recvTrackBufferInMessage: <nil>
+2023/03/19 15:50:58 api-pang-ws.go:490: o.handlBuffersByPangWSAPI: <nil>
+2023/03/19 15:50:58 api-pang-ws.go:195: OUT PangWSPublisher: <nil>
+2023/03/19 15:50:58 api-pang-ws.go:614: o.sendTrackBufferInMessage: <nil>
+2023/03/19 15:50:58 main.go:447: websocket: close 1005 (no status)
+2023/03/19 15:50:58 main.go:497: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/19 15:50:59 main.go:440: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.20.0.1:57034
+2023/03/19 15:50:59 api-pang-ws.go:141: IN PangWSPublisher: {base} {video bundle mono group }
+2023/03/19 15:50:59 data-base.go:180: milli 0 => 1ms 30s
+2023/03/19 15:50:59 api-pang-ws.go:459: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/19 15:50:59 api-pang-ws.go:533: i.recvTrackBufferInMessage: video
+2023/03/19 15:50:59 api-pang-ws.go:565: i.sendTrackBufferInMessage: video
+2023/03/19 15:51:05 api-pang-ws.go:545: websocket: close 1001 (going away)
+2023/03/19 15:51:05 api-pang-ws.go:546: o.recvTrackBufferInMessage: <nil>
+2023/03/19 15:51:05 api-pang-ws.go:490: o.handlBuffersByPangWSAPI: <nil>
+2023/03/19 15:51:05 api-pang-ws.go:195: OUT PangWSPublisher: <nil>
+2023/03/19 15:51:05 api-pang-ws.go:614: o.sendTrackBufferInMessage: <nil>
+2023/03/19 15:51:05 main.go:447: websocket: close 1001 (going away)
+2023/03/19 15:51:05 main.go:497: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/19 15:51:06 main.go:440: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.20.0.1:46382
+2023/03/19 15:51:06 api-pang-ws.go:141: IN PangWSPublisher: {base} {video bundle mono group }
+2023/03/19 15:51:06 data-base.go:180: milli 0 => 1ms 30s
+2023/03/19 15:51:06 api-pang-ws.go:459: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/19 15:51:06 api-pang-ws.go:533: i.recvTrackBufferInMessage: video
+2023/03/19 15:51:06 api-pang-ws.go:565: i.sendTrackBufferInMessage: video
+2023/03/19 15:51:32 api-pang-ws.go:545: websocket: close 1001 (going away)
+2023/03/19 15:51:32 api-pang-ws.go:546: o.recvTrackBufferInMessage: <nil>
+2023/03/19 15:51:32 api-pang-ws.go:490: o.handlBuffersByPangWSAPI: <nil>
+2023/03/19 15:51:32 api-pang-ws.go:195: OUT PangWSPublisher: <nil>
+2023/03/19 15:51:32 api-pang-ws.go:614: o.sendTrackBufferInMessage: <nil>
+2023/03/19 15:51:32 main.go:447: websocket: close 1001 (going away)
+2023/03/19 15:51:32 main.go:497: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/19 15:51:34 main.go:440: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.20.0.1:44604
+2023/03/19 15:51:34 api-pang-ws.go:141: IN PangWSPublisher: {base} {video bundle mono group }
+2023/03/19 15:51:34 data-base.go:180: milli 0 => 1ms 30s
+2023/03/19 15:51:34 api-pang-ws.go:459: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/19 15:51:34 api-pang-ws.go:533: i.recvTrackBufferInMessage: video
+2023/03/19 15:51:34 api-pang-ws.go:565: i.sendTrackBufferInMessage: video
+2023/03/19 15:51:35 api-pang-ws.go:545: websocket: close 1005 (no status)
+2023/03/19 15:51:35 api-pang-ws.go:546: o.recvTrackBufferInMessage: <nil>
+2023/03/19 15:51:35 api-pang-ws.go:490: o.handlBuffersByPangWSAPI: <nil>
+2023/03/19 15:51:35 api-pang-ws.go:614: o.sendTrackBufferInMessage: <nil>
+2023/03/19 15:51:35 api-pang-ws.go:195: OUT PangWSPublisher: <nil>
+2023/03/19 15:51:35 main.go:447: websocket: close 1005 (no status)
+2023/03/19 15:51:35 main.go:497: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/19 15:51:36 main.go:440: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.20.0.1:44606
+2023/03/19 15:51:36 api-pang-ws.go:141: IN PangWSPublisher: {base} {video bundle mono group }
+2023/03/19 15:51:36 data-base.go:180: milli 0 => 1ms 30s
+2023/03/19 15:51:36 api-pang-ws.go:459: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/19 15:51:36 api-pang-ws.go:533: i.recvTrackBufferInMessage: video
+2023/03/19 15:51:36 api-pang-ws.go:565: i.sendTrackBufferInMessage: video
+2023/03/19 15:51:36 api-pang-ws.go:545: websocket: close 1005 (no status)
+2023/03/19 15:51:36 api-pang-ws.go:546: o.recvTrackBufferInMessage: <nil>
+2023/03/19 15:51:36 api-pang-ws.go:490: o.handlBuffersByPangWSAPI: <nil>
+2023/03/19 15:51:36 api-pang-ws.go:195: OUT PangWSPublisher: <nil>
+2023/03/19 15:51:36 api-pang-ws.go:614: o.sendTrackBufferInMessage: <nil>
+2023/03/19 15:51:36 main.go:447: websocket: close 1005 (no status)
+2023/03/19 15:51:36 main.go:497: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/19 15:51:48 main.go:440: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.20.0.1:42816
+2023/03/19 15:51:48 api-pang-ws.go:141: IN PangWSPublisher: {base} {video bundle mono group }
+2023/03/19 15:51:48 data-base.go:180: milli 0 => 1ms 30s
+2023/03/19 15:51:48 api-pang-ws.go:459: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/19 15:51:48 api-pang-ws.go:533: i.recvTrackBufferInMessage: video
+2023/03/19 15:51:48 api-pang-ws.go:565: i.sendTrackBufferInMessage: video
+2023/03/19 15:51:50 api-pang-ws.go:545: websocket: close 1005 (no status)
+2023/03/19 15:51:50 api-pang-ws.go:546: o.recvTrackBufferInMessage: <nil>
+2023/03/19 15:51:50 api-pang-ws.go:490: o.handlBuffersByPangWSAPI: <nil>
+2023/03/19 15:51:50 api-pang-ws.go:614: o.sendTrackBufferInMessage: <nil>
+2023/03/19 15:51:50 api-pang-ws.go:195: OUT PangWSPublisher: <nil>
+2023/03/19 15:51:50 main.go:447: websocket: close 1005 (no status)
+2023/03/19 15:51:50 main.go:497: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/19 15:51:50 main.go:440: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.20.0.1:42824
+2023/03/19 15:51:50 api-pang-ws.go:141: IN PangWSPublisher: {base} {video bundle mono group }
+2023/03/19 15:51:50 data-base.go:180: milli 0 => 1ms 30s
+2023/03/19 15:51:50 api-pang-ws.go:459: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/19 15:51:50 api-pang-ws.go:533: i.recvTrackBufferInMessage: video
+2023/03/19 15:51:50 api-pang-ws.go:565: i.sendTrackBufferInMessage: video
+2023/03/19 15:51:51 api-pang-ws.go:545: websocket: close 1005 (no status)
+2023/03/19 15:51:51 api-pang-ws.go:546: o.recvTrackBufferInMessage: <nil>
+2023/03/19 15:51:51 api-pang-ws.go:490: o.handlBuffersByPangWSAPI: <nil>
+2023/03/19 15:51:51 api-pang-ws.go:195: OUT PangWSPublisher: <nil>
+2023/03/19 15:51:51 api-pang-ws.go:614: o.sendTrackBufferInMessage: <nil>
+2023/03/19 15:51:51 main.go:447: websocket: close 1005 (no status)
+2023/03/19 15:51:51 main.go:497: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/19 15:52:01 main.go:440: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.20.0.1:50612
+2023/03/19 15:52:01 api-pang-ws.go:141: IN PangWSPublisher: {base} {video bundle mono group }
+2023/03/19 15:52:01 data-base.go:180: milli 0 => 1ms 30s
+2023/03/19 15:52:01 api-pang-ws.go:459: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/19 15:52:01 api-pang-ws.go:533: i.recvTrackBufferInMessage: video
+2023/03/19 15:52:01 api-pang-ws.go:565: i.sendTrackBufferInMessage: video
+2023/03/19 15:52:08 api-pang-ws.go:545: websocket: close 1005 (no status)
+2023/03/19 15:52:08 api-pang-ws.go:546: o.recvTrackBufferInMessage: <nil>
+2023/03/19 15:52:08 api-pang-ws.go:490: o.handlBuffersByPangWSAPI: <nil>
+2023/03/19 15:52:08 api-pang-ws.go:614: o.sendTrackBufferInMessage: <nil>
+2023/03/19 15:52:08 api-pang-ws.go:195: OUT PangWSPublisher: <nil>
+2023/03/19 15:52:08 main.go:447: websocket: close 1005 (no status)
+2023/03/19 15:52:08 main.go:497: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video

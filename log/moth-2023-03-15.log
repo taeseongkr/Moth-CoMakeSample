@@ -1,0 +1,31 @@
+2023/03/15 15:28:34 main.go:80: Moth IoT Media Server, v0.1.0.6, (c)2021-2 TeamGRIT, Inc. started on linux/amd64
+2023/03/15 15:28:34 config-file.go:111: i.readObjectFileInArray: channel conf/channels.json
+2023/03/15 15:28:34 main.go:703: plain http server started on :8276
+2023/03/15 15:28:34 main.go:728: secure http server started on :8277
+2023/03/15 15:28:34 config-file.go:111: i.readObjectFileInArray: group conf/groups.json
+2023/03/15 15:28:34 util-external.go:97: i.ParseLicenseKeyString: 
+2023/03/15 15:28:34 main.go:816: invalid license format: 
+2023/03/15 15:30:15 main.go:440: IN PangWSHandler: GET /pang/ws/sub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.19.0.1:56116
+2023/03/15 15:30:15 api-pang-ws.go:201: IN PangWSSubscriber: {base} {video bundle mono group }
+2023/03/15 15:30:15 data-base.go:180: milli 0 => 1ms 30s
+2023/03/15 15:30:15 api-pang-ws.go:459: i.handlBuffersByPangWSAPI: /pang/ws/sub
+2023/03/15 15:30:15 api-pang-ws.go:565: i.sendTrackBufferInMessage: video
+2023/03/15 15:30:15 api-pang-ws.go:533: i.recvTrackBufferInMessage: video
+2023/03/15 15:30:21 api-pang-ws.go:545: websocket: close 1001 (going away)
+2023/03/15 15:30:21 api-pang-ws.go:546: o.recvTrackBufferInMessage: <nil>
+2023/03/15 15:30:21 api-pang-ws.go:614: o.sendTrackBufferInMessage: <nil>
+2023/03/15 15:30:21 api-pang-ws.go:490: o.handlBuffersByPangWSAPI: <nil>
+2023/03/15 15:30:21 api-pang-ws.go:235: OUT PangWSSubscriber: <nil>
+2023/03/15 15:30:21 main.go:497: OUT PangWSHandler: /pang/ws/sub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/15 15:30:43 main.go:440: IN PangWSHandler: GET /pang/ws/sub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.19.0.1:59962
+2023/03/15 15:30:43 api-pang-ws.go:201: IN PangWSSubscriber: {base} {video bundle mono group }
+2023/03/15 15:30:43 data-base.go:180: milli 0 => 1ms 30s
+2023/03/15 15:30:43 api-pang-ws.go:459: i.handlBuffersByPangWSAPI: /pang/ws/sub
+2023/03/15 15:30:43 api-pang-ws.go:565: i.sendTrackBufferInMessage: video
+2023/03/15 15:30:43 api-pang-ws.go:533: i.recvTrackBufferInMessage: video
+2023/03/15 15:30:54 api-pang-ws.go:545: websocket: close 1001 (going away)
+2023/03/15 15:30:54 api-pang-ws.go:546: o.recvTrackBufferInMessage: <nil>
+2023/03/15 15:30:54 api-pang-ws.go:614: o.sendTrackBufferInMessage: <nil>
+2023/03/15 15:30:54 api-pang-ws.go:490: o.handlBuffersByPangWSAPI: <nil>
+2023/03/15 15:30:54 api-pang-ws.go:235: OUT PangWSSubscriber: <nil>
+2023/03/15 15:30:54 main.go:497: OUT PangWSHandler: /pang/ws/sub?channel=btlb3pjpc98lsdbc0lj0&track=video

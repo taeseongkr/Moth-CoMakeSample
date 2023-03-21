@@ -1,0 +1,20 @@
+{
+   "common": {
+      "id": "c7t7t0rqk3v041oj6ntg",
+      "name": "moth-teamgrit"
+   },
+   "host_addr": "localhost",
+   "port_plain": 8276,
+   "port_secure": 8277,
+   "pem_public": "cert/cert.pem",
+   "pem_private": "cert/key.pem",
+   "dir_log": "./log",
+   "dir_data": "./data",
+   "dir_record": "./data/record",
+   "key_manager": "teamgrit",
+   "key_license": "",
+   "sec_ticket": false,
+   "sec_host": false,
+   "host_cidr": "",
+   "cors_allow": true
+}

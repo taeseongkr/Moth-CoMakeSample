@@ -1,0 +1,7 @@
+2023/03/14 12:56:16 main.go:80: Moth IoT Media Server, v0.1.0.6, (c)2021-2 TeamGRIT, Inc. started on linux/amd64
+2023/03/14 12:56:16 config-file.go:111: i.readObjectFileInArray: channel conf/channels.json
+2023/03/14 12:56:16 main.go:728: secure http server started on :8277
+2023/03/14 12:56:16 main.go:703: plain http server started on :8276
+2023/03/14 12:56:16 config-file.go:111: i.readObjectFileInArray: group conf/groups.json
+2023/03/14 12:56:16 util-external.go:97: i.ParseLicenseKeyString: 
+2023/03/14 12:56:16 main.go:816: invalid license format: 

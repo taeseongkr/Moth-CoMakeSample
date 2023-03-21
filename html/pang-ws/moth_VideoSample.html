@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moth Video Demo</title>
+    <script type="module" src="moth_Video_Pub.js"></script>
+    <script type="module" src="moth_Video_Sub.js"></script>
+    <!-- <script src="moth_Video_Subscribe.js"></script> -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="init">
+        <div class="element">
+            <p>host</p>
+            <input id="host" />
+        </div>
+        <div class="element">
+            <p>port</p>
+            <input id="port" />
+        </div>
+        <button type="button" id="onPortConnect">Connect</button>
+        <label for="channel">channel: </label>
+        <select name="channels" id="channel">
+            <option value="instant">instant</option>
+        </select>
+        <div class="element">
+            <p>instant channel name:</p>
+            <input id="channelName" />
+        </div>
+        <button type="button" id="onApply">Apply</button>
+    </div>
+    <h3> publish </h3>
+    <div class="display">
+        <div id="videoStyle">
+            <video id="video" width="480" height="360"></video>
+        </div>
+        <div id="outputHost">
+            <!-- <p id="statusSocketHost" style="display: none;">Open Video Websocket</p>
+            <p id="statusSend" style="display: none;">Send</p> -->
+        </div>
+        <div class="buttonList">
+            <button type="button" id="onOpenSocketHost">Open Video Pub Websocket</button>
+            <button type="button" id="onSendVideoDataHost">Send Video Data</button>
+            <button type="button" id="onCloseSocketHost">Close Video Pub Websocket</button>
+        </div>
+    </div>
+
+    <h3> subscribe </h3>
+    <div class="display">
+        <canvas id="canvas" ></canvas>
+        <div id="outputClient">
+        </div>
+        <div class="buttonList">
+            <button type="button" id="onOpenSocketClient">Open Video Sub Websocket</button>
+            <button type="button" id="onCloseSocketClient">Close Video Sub Websocket</button>
+        </div>
+    </div>
+</body>
+
+</html>

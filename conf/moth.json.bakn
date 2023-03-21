@@ -1,0 +1,28 @@
+{
+   "common": {
+      "type": "config",
+      "id": "c7t749rqk3vfksd895j0",
+      "name": "moth",
+      "style": "",
+      "state": 1,
+      "blocked": false,
+      "at_created": "2022-02-02T20:59:35.414555+09:00",
+      "at_used": "2022-02-02T20:59:35.414555+09:00",
+      "at_updated": "0001-01-01T00:00:00Z",
+      "at_expired": "2022-03-04T20:59:35.414555+09:00"
+   },
+   "host_addr": "localhost",
+   "port_plain": 8276,
+   "port_secure": 8277,
+   "pem_public": "cert/cert.pem",
+   "pem_private": "cert/key.pem",
+   "type_run": "server",
+   "dir_log": "./log",
+   "dir_data": "./data",
+   "key_manager": "",
+   "key_license": "",
+   "sec_ticket": false,
+   "sec_host": false,
+   "host_cidr": "",
+   "cors_allow": true
+}

@@ -1,0 +1,847 @@
+2023/03/21 00:26:16 main.go:80: Moth IoT Media Server, v0.1.2.2, (c)2021-2 TeamGRIT, Inc. started on linux/arm64
+2023/03/21 00:26:16 config-file.go:111: i.readObjectFileInArray: channel conf/channels.json
+2023/03/21 00:26:16 main.go:761: secure http server started on :8277
+2023/03/21 00:26:16 main.go:833: secure http3 server started on :8433
+2023/03/21 00:26:16 main.go:736: plain http server started on :8276
+2023/03/21 00:26:16 main.go:860: raknet udp server started on :8276
+2023/03/21 00:26:16 config-file.go:111: i.readObjectFileInArray: group conf/groups.json
+2023/03/21 00:26:16 util-license.go:75: i.parseKeyString: 
+2023/03/21 00:26:16 main.go:953: invalid license format: 
+2023/03/21 00:26:16 packet_handler_map.go:118: failed to sufficiently increase receive buffer size (was: 208 kiB, wanted: 2048 kiB, got: 416 kiB). See https://github.com/lucas-clemente/quic-go/wiki/UDP-Receive-Buffer-Size for details.
+2023/03/21 00:26:29 main.go:455: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.31.0.1:41968
+2023/03/21 00:26:29 api-pang-ws.go:203: IN PangWSPublisher: {base} {video single mono group   }
+2023/03/21 00:26:29 data-base.go:203: timeset: milli 0 => 1ms 30s
+2023/03/21 00:26:29 api-pang-ws.go:511: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/21 00:26:29 api-pang-ws.go:548: i.recvTrackBufferInMessage: video
+2023/03/21 00:26:47 api-pang-ws.go:567: websocket: close 1001 (going away)
+2023/03/21 00:26:47 api-pang-ws.go:568: o.recvTrackBufferInMessage: <nil>
+2023/03/21 00:26:47 api-pang-ws.go:543: o.handlBuffersByPangWSAPI: <nil>
+2023/03/21 00:26:47 api-pang-ws.go:257: OUT PangWSPublisher: <nil>
+2023/03/21 00:26:47 main.go:462: websocket: close 1001 (going away)
+2023/03/21 00:26:47 main.go:521: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/21 00:26:50 main.go:455: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.31.0.1:35626
+2023/03/21 00:26:50 api-pang-ws.go:203: IN PangWSPublisher: {base} {video single mono group   }
+2023/03/21 00:26:50 data-base.go:203: timeset: milli 0 => 1ms 30s
+2023/03/21 00:26:50 api-pang-ws.go:511: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/21 00:26:50 api-pang-ws.go:548: i.recvTrackBufferInMessage: video
+2023/03/21 00:26:51 main.go:455: IN PangWSHandler: GET /pang/ws/sub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.31.0.1:35640
+2023/03/21 00:26:51 api-pang-ws.go:263: IN PangWSSubscriber: {base} {video single mono group   }
+2023/03/21 00:26:51 data-base.go:203: timeset: milli 0 => 1ms 30s
+2023/03/21 00:26:51 api-pang-ws.go:511: i.handlBuffersByPangWSAPI: /pang/ws/sub
+2023/03/21 00:26:51 api-pang-ws.go:588: i.sendTrackBufferInMessage: video
+2023/03/21 00:26:53 api-pang-ws.go:574: video video/vp8;width=640;height=480;framerate=15;interval=60;bitrate=4000000;packet=codec
+2023/03/21 00:26:54 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:26:55 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:26:56 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:26:57 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:26:58 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:26:59 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:00 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:01 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:02 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:03 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:04 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:05 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:06 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:07 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:08 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:09 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:10 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:11 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:12 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:13 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:14 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:15 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:16 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:17 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:18 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:19 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:20 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:21 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:22 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:23 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:24 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:25 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:26 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:27 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:28 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:29 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:30 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:31 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:32 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:27:32 api-pang-ws.go:567: websocket: close 1001 (going away)
+2023/03/21 00:27:32 api-pang-ws.go:568: o.recvTrackBufferInMessage: <nil>
+2023/03/21 00:27:32 api-pang-ws.go:543: o.handlBuffersByPangWSAPI: <nil>
+2023/03/21 00:27:32 api-pang-ws.go:257: OUT PangWSPublisher: <nil>
+2023/03/21 00:27:32 main.go:462: websocket: close 1001 (going away)
+2023/03/21 00:27:32 main.go:521: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/21 00:28:02 api-pang-ws.go:620: timeout: 30s 1ms
+2023/03/21 00:28:02 api-pang-ws.go:621: o.sendTrackBufferInMessage: <nil>
+2023/03/21 00:28:02 api-pang-ws.go:543: o.handlBuffersByPangWSAPI: <nil>
+2023/03/21 00:28:02 api-pang-ws.go:296: OUT PangWSSubscriber: <nil>
+2023/03/21 00:28:02 main.go:521: OUT PangWSHandler: /pang/ws/sub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/21 00:28:32 main.go:455: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.31.0.1:54848
+2023/03/21 00:28:32 api-pang-ws.go:203: IN PangWSPublisher: {base} {video single mono group   }
+2023/03/21 00:28:32 data-base.go:203: timeset: milli 0 => 1ms 30s
+2023/03/21 00:28:32 api-pang-ws.go:511: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/21 00:28:32 api-pang-ws.go:548: i.recvTrackBufferInMessage: video
+2023/03/21 00:28:33 main.go:455: IN PangWSHandler: GET /pang/ws/sub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.31.0.1:54864
+2023/03/21 00:28:33 api-pang-ws.go:263: IN PangWSSubscriber: {base} {video single mono group   }
+2023/03/21 00:28:33 data-base.go:203: timeset: milli 0 => 1ms 30s
+2023/03/21 00:28:33 api-pang-ws.go:511: i.handlBuffersByPangWSAPI: /pang/ws/sub
+2023/03/21 00:28:33 api-pang-ws.go:588: i.sendTrackBufferInMessage: video
+2023/03/21 00:28:34 api-pang-ws.go:574: video video/vp8;width=640;height=480;framerate=15;interval=60;bitrate=4000000;packet=codec
+2023/03/21 00:28:35 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:28:36 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:28:37 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:28:38 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:28:39 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:28:40 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:28:41 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:28:42 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:28:43 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:28:44 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:28:45 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:28:46 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:28:47 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:28:48 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:28:49 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:28:50 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:28:51 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:28:52 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:28:53 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:28:54 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:28:55 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:28:56 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:28:57 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:28:58 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:28:59 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:00 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:01 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:02 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:03 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:04 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:05 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:06 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:07 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:08 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:09 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:10 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:11 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:12 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:13 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:13 api-pang-ws.go:567: websocket: close 1001 (going away)
+2023/03/21 00:29:13 api-pang-ws.go:568: o.recvTrackBufferInMessage: <nil>
+2023/03/21 00:29:13 api-pang-ws.go:543: o.handlBuffersByPangWSAPI: <nil>
+2023/03/21 00:29:13 api-pang-ws.go:257: OUT PangWSPublisher: <nil>
+2023/03/21 00:29:13 main.go:462: websocket: close 1001 (going away)
+2023/03/21 00:29:13 main.go:521: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/21 00:29:15 main.go:455: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.31.0.1:51704
+2023/03/21 00:29:15 api-pang-ws.go:203: IN PangWSPublisher: {base} {video single mono group   }
+2023/03/21 00:29:15 data-base.go:203: timeset: milli 0 => 1ms 30s
+2023/03/21 00:29:15 api-pang-ws.go:511: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/21 00:29:15 api-pang-ws.go:548: i.recvTrackBufferInMessage: video
+2023/03/21 00:29:16 main.go:455: IN PangWSHandler: GET /pang/ws/sub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.31.0.1:36996
+2023/03/21 00:29:16 api-pang-ws.go:263: IN PangWSSubscriber: {base} {video single mono group   }
+2023/03/21 00:29:16 data-base.go:203: timeset: milli 0 => 1ms 30s
+2023/03/21 00:29:16 api-pang-ws.go:511: i.handlBuffersByPangWSAPI: /pang/ws/sub
+2023/03/21 00:29:16 api-pang-ws.go:588: i.sendTrackBufferInMessage: video
+2023/03/21 00:29:17 api-pang-ws.go:574: video video/vp8;width=640;height=480;framerate=15;interval=60;bitrate=4000000;packet=codec
+2023/03/21 00:29:17 api-pang-ws.go:634: writev tcp 172.31.0.2:8276->172.31.0.1:54864: writev: broken pipe
+2023/03/21 00:29:17 api-pang-ws.go:635: o.sendTrackBufferInMessage: <nil>
+2023/03/21 00:29:17 api-pang-ws.go:543: o.handlBuffersByPangWSAPI: <nil>
+2023/03/21 00:29:17 api-pang-ws.go:296: OUT PangWSSubscriber: <nil>
+2023/03/21 00:29:17 main.go:462: writev tcp 172.31.0.2:8276->172.31.0.1:54864: writev: broken pipe
+2023/03/21 00:29:17 main.go:521: OUT PangWSHandler: /pang/ws/sub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/21 00:29:18 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:19 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:20 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:21 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:22 api-pang-ws.go:567: websocket: close 1001 (going away)
+2023/03/21 00:29:22 api-pang-ws.go:568: o.recvTrackBufferInMessage: <nil>
+2023/03/21 00:29:22 api-pang-ws.go:543: o.handlBuffersByPangWSAPI: <nil>
+2023/03/21 00:29:22 api-pang-ws.go:257: OUT PangWSPublisher: <nil>
+2023/03/21 00:29:22 main.go:462: websocket: close 1001 (going away)
+2023/03/21 00:29:22 main.go:521: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/21 00:29:30 main.go:455: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.31.0.1:47482
+2023/03/21 00:29:30 api-pang-ws.go:203: IN PangWSPublisher: {base} {video single mono group   }
+2023/03/21 00:29:30 data-base.go:203: timeset: milli 0 => 1ms 30s
+2023/03/21 00:29:30 api-pang-ws.go:511: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/21 00:29:30 api-pang-ws.go:548: i.recvTrackBufferInMessage: video
+2023/03/21 00:29:31 main.go:455: IN PangWSHandler: GET /pang/ws/sub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.31.0.1:47498
+2023/03/21 00:29:31 api-pang-ws.go:263: IN PangWSSubscriber: {base} {video single mono group   }
+2023/03/21 00:29:31 data-base.go:203: timeset: milli 0 => 1ms 30s
+2023/03/21 00:29:31 api-pang-ws.go:511: i.handlBuffersByPangWSAPI: /pang/ws/sub
+2023/03/21 00:29:31 api-pang-ws.go:588: i.sendTrackBufferInMessage: video
+2023/03/21 00:29:32 api-pang-ws.go:574: video video/vp8;width=640;height=480;framerate=15;interval=60;bitrate=4000000;packet=codec
+2023/03/21 00:29:32 api-pang-ws.go:634: writev tcp 172.31.0.2:8276->172.31.0.1:36996: writev: broken pipe
+2023/03/21 00:29:32 api-pang-ws.go:635: o.sendTrackBufferInMessage: <nil>
+2023/03/21 00:29:32 api-pang-ws.go:543: o.handlBuffersByPangWSAPI: <nil>
+2023/03/21 00:29:32 api-pang-ws.go:296: OUT PangWSSubscriber: <nil>
+2023/03/21 00:29:32 main.go:462: writev tcp 172.31.0.2:8276->172.31.0.1:36996: writev: broken pipe
+2023/03/21 00:29:32 main.go:521: OUT PangWSHandler: /pang/ws/sub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/21 00:29:33 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:34 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:35 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:36 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:37 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:38 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:39 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:40 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:41 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:42 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:43 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:44 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:45 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:46 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:47 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:48 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:49 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:50 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:51 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:52 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:53 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:54 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:55 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:56 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:57 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:58 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:29:59 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:00 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:01 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:02 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:03 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:04 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:05 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:06 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:07 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:08 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:09 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:10 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:11 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:12 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:13 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:14 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:15 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:16 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:17 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:18 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:19 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:20 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:21 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:22 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:23 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:24 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:25 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:26 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:27 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:28 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:29 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:30 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:31 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:32 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:33 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:34 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:35 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:36 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:37 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:38 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:39 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:40 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:41 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:42 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:43 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:44 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:45 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:46 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:47 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:48 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:49 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:50 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:51 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:52 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:53 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:54 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:55 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:56 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:57 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:58 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:30:59 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:00 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:01 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:02 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:03 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:04 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:05 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:06 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:07 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:08 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:09 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:10 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:11 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:12 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:13 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:14 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:15 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:16 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:17 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:18 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:19 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:20 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:21 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:22 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:23 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:24 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:25 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:26 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:27 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:28 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:29 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:30 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:31 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:32 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:33 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:34 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:35 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:36 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:37 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:38 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:39 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:40 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:41 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:42 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:43 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:44 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:45 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:46 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:47 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:48 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:49 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:50 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:51 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:52 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:53 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:54 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:55 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:56 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:57 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:58 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:31:59 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:00 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:01 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:02 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:03 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:04 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:05 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:06 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:07 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:08 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:09 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:10 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:11 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:12 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:13 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:14 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:15 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:16 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:17 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:18 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:19 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:20 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:21 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:22 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:23 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:24 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:25 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:26 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:27 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:28 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:29 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:30 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:31 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:32 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:33 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:34 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:35 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:36 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:37 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:38 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:39 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:40 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:41 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:42 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:43 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:44 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:45 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:46 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:47 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:48 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:49 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:50 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:51 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:52 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:53 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:54 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:55 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:56 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:57 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:58 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:32:59 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:00 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:01 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:02 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:03 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:04 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:05 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:06 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:07 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:08 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:09 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:10 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:11 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:12 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:13 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:14 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:15 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:16 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:17 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:18 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:19 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:20 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:21 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:22 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:23 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:24 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:25 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:26 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:27 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:28 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:29 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:30 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:31 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:32 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:33 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:34 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:35 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:36 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:37 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:38 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:39 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:40 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:41 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:42 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:43 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:44 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:45 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:46 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:47 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:48 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:49 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:50 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:51 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:52 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:53 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:54 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:55 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:56 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:57 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:58 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:33:59 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:00 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:01 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:02 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:03 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:04 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:05 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:06 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:07 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:08 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:09 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:10 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:11 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:12 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:13 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:14 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:15 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:16 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:17 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:18 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:19 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:20 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:21 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:22 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:23 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:24 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:25 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:26 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:27 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:28 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:29 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:30 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:31 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:32 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:33 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:34 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:35 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:36 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:37 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:38 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:39 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:40 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:41 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:42 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:43 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:44 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:45 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:46 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:47 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:48 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:49 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:50 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:51 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:52 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:53 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:54 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:55 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:56 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:57 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:58 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:34:59 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:00 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:01 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:02 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:03 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:04 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:05 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:06 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:07 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:08 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:09 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:10 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:11 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:12 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:13 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:14 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:15 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:16 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:17 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:18 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:19 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:20 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:21 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:22 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:23 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:24 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:25 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:26 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:27 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:28 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:29 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:30 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:31 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:32 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:33 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:34 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:35 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:36 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:37 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:38 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:39 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:40 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:41 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:42 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:43 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:44 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:45 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:46 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:47 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:48 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:49 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:50 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:51 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:52 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:53 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:54 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:55 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:56 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:57 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:58 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:35:59 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:36:00 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:36:01 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:36:02 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:36:03 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:36:04 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:36:05 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:36:06 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:36:07 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:36:08 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:36:09 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:36:10 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:36:11 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:36:12 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:36:13 api-pang-ws.go:567: websocket: close 1001 (going away)
+2023/03/21 00:36:13 api-pang-ws.go:568: o.recvTrackBufferInMessage: <nil>
+2023/03/21 00:36:13 api-pang-ws.go:543: o.handlBuffersByPangWSAPI: <nil>
+2023/03/21 00:36:13 api-pang-ws.go:257: OUT PangWSPublisher: <nil>
+2023/03/21 00:36:13 main.go:462: websocket: close 1001 (going away)
+2023/03/21 00:36:13 main.go:521: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/21 00:36:43 api-pang-ws.go:620: timeout: 30s 1ms
+2023/03/21 00:36:43 api-pang-ws.go:621: o.sendTrackBufferInMessage: <nil>
+2023/03/21 00:36:43 api-pang-ws.go:543: o.handlBuffersByPangWSAPI: <nil>
+2023/03/21 00:36:43 api-pang-ws.go:296: OUT PangWSSubscriber: <nil>
+2023/03/21 00:36:43 main.go:521: OUT PangWSHandler: /pang/ws/sub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/21 00:37:02 main.go:455: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.31.0.1:38088
+2023/03/21 00:37:02 api-pang-ws.go:203: IN PangWSPublisher: {base} {video single mono group   }
+2023/03/21 00:37:02 data-base.go:203: timeset: milli 0 => 1ms 30s
+2023/03/21 00:37:02 api-pang-ws.go:511: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/21 00:37:02 api-pang-ws.go:548: i.recvTrackBufferInMessage: video
+2023/03/21 00:37:04 main.go:455: IN PangWSHandler: GET /pang/ws/sub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.31.0.1:38100
+2023/03/21 00:37:04 api-pang-ws.go:263: IN PangWSSubscriber: {base} {video single mono group   }
+2023/03/21 00:37:04 data-base.go:203: timeset: milli 0 => 1ms 30s
+2023/03/21 00:37:04 api-pang-ws.go:511: i.handlBuffersByPangWSAPI: /pang/ws/sub
+2023/03/21 00:37:04 api-pang-ws.go:588: i.sendTrackBufferInMessage: video
+2023/03/21 00:37:05 api-pang-ws.go:574: video video/vp8;width=640;height=480;framerate=15;interval=60;bitrate=4000000;packet=codec
+2023/03/21 00:37:06 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:37:07 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:37:08 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:37:09 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:37:10 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:37:11 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:37:12 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:37:13 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:37:14 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:37:15 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:37:16 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:37:17 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:37:18 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:37:19 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:37:20 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:37:21 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:37:22 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:37:23 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:37:24 api-pang-ws.go:567: websocket: close 1005 (no status)
+2023/03/21 00:37:24 api-pang-ws.go:568: o.recvTrackBufferInMessage: <nil>
+2023/03/21 00:37:24 api-pang-ws.go:543: o.handlBuffersByPangWSAPI: <nil>
+2023/03/21 00:37:24 api-pang-ws.go:257: OUT PangWSPublisher: <nil>
+2023/03/21 00:37:24 main.go:462: websocket: close 1005 (no status)
+2023/03/21 00:37:24 main.go:521: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/21 00:37:54 api-pang-ws.go:620: timeout: 30s 1ms
+2023/03/21 00:37:54 api-pang-ws.go:621: o.sendTrackBufferInMessage: <nil>
+2023/03/21 00:37:54 api-pang-ws.go:543: o.handlBuffersByPangWSAPI: <nil>
+2023/03/21 00:37:54 api-pang-ws.go:296: OUT PangWSSubscriber: <nil>
+2023/03/21 00:37:54 main.go:521: OUT PangWSHandler: /pang/ws/sub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/21 00:39:27 main.go:455: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.31.0.1:58680
+2023/03/21 00:39:27 api-pang-ws.go:203: IN PangWSPublisher: {base} {video single mono group   }
+2023/03/21 00:39:27 data-base.go:203: timeset: milli 0 => 1ms 30s
+2023/03/21 00:39:27 api-pang-ws.go:511: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/21 00:39:27 api-pang-ws.go:548: i.recvTrackBufferInMessage: video
+2023/03/21 00:39:28 main.go:455: IN PangWSHandler: GET /pang/ws/sub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.31.0.1:58688
+2023/03/21 00:39:28 api-pang-ws.go:263: IN PangWSSubscriber: {base} {video single mono group   }
+2023/03/21 00:39:28 data-base.go:203: timeset: milli 0 => 1ms 30s
+2023/03/21 00:39:28 api-pang-ws.go:511: i.handlBuffersByPangWSAPI: /pang/ws/sub
+2023/03/21 00:39:28 api-pang-ws.go:588: i.sendTrackBufferInMessage: video
+2023/03/21 00:39:29 api-pang-ws.go:574: video video/vp8;width=640;height=480;framerate=15;interval=60;bitrate=4000000;packet=codec
+2023/03/21 00:39:30 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:31 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:32 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:33 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:34 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:35 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:36 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:37 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:38 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:39 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:40 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:41 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:42 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:43 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:44 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:45 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:46 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:47 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:48 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:49 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:50 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:51 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:52 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:53 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:54 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:55 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:56 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:57 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:58 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:39:59 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:40:00 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:40:01 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:40:02 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:40:03 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:40:04 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:40:05 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:40:06 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:40:07 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:40:07 api-pang-ws.go:567: websocket: close 1001 (going away)
+2023/03/21 00:40:07 api-pang-ws.go:568: o.recvTrackBufferInMessage: <nil>
+2023/03/21 00:40:07 api-pang-ws.go:543: o.handlBuffersByPangWSAPI: <nil>
+2023/03/21 00:40:07 api-pang-ws.go:257: OUT PangWSPublisher: <nil>
+2023/03/21 00:40:07 main.go:462: websocket: close 1001 (going away)
+2023/03/21 00:40:07 main.go:521: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/21 00:40:37 api-pang-ws.go:620: timeout: 30s 1ms
+2023/03/21 00:40:37 api-pang-ws.go:621: o.sendTrackBufferInMessage: <nil>
+2023/03/21 00:40:37 api-pang-ws.go:543: o.handlBuffersByPangWSAPI: <nil>
+2023/03/21 00:40:37 api-pang-ws.go:296: OUT PangWSSubscriber: <nil>
+2023/03/21 00:40:37 main.go:521: OUT PangWSHandler: /pang/ws/sub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/21 00:58:03 main.go:455: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.31.0.1:49228
+2023/03/21 00:58:03 api-pang-ws.go:203: IN PangWSPublisher: {base} {video single mono group   }
+2023/03/21 00:58:03 data-base.go:203: timeset: milli 0 => 1ms 30s
+2023/03/21 00:58:03 api-pang-ws.go:511: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/21 00:58:03 api-pang-ws.go:548: i.recvTrackBufferInMessage: video
+2023/03/21 00:58:05 main.go:455: IN PangWSHandler: GET /pang/ws/sub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.31.0.1:49238
+2023/03/21 00:58:05 api-pang-ws.go:263: IN PangWSSubscriber: {base} {video single mono group   }
+2023/03/21 00:58:05 data-base.go:203: timeset: milli 0 => 1ms 30s
+2023/03/21 00:58:05 api-pang-ws.go:511: i.handlBuffersByPangWSAPI: /pang/ws/sub
+2023/03/21 00:58:05 api-pang-ws.go:588: i.sendTrackBufferInMessage: video
+2023/03/21 00:58:06 api-pang-ws.go:574: video video/vp8;width=640;height=480;framerate=15;interval=60;bitrate=4000000;packet=codec
+2023/03/21 00:58:07 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:58:08 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:58:09 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:58:10 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:58:11 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:58:12 api-pang-ws.go:574: video video/vp8
+2023/03/21 00:58:13 api-pang-ws.go:567: websocket: close 1001 (going away)
+2023/03/21 00:58:13 api-pang-ws.go:568: o.recvTrackBufferInMessage: <nil>
+2023/03/21 00:58:13 api-pang-ws.go:543: o.handlBuffersByPangWSAPI: <nil>
+2023/03/21 00:58:13 api-pang-ws.go:257: OUT PangWSPublisher: <nil>
+2023/03/21 00:58:13 main.go:462: websocket: close 1001 (going away)
+2023/03/21 00:58:13 main.go:521: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/21 00:58:43 api-pang-ws.go:620: timeout: 30s 1ms
+2023/03/21 00:58:43 api-pang-ws.go:621: o.sendTrackBufferInMessage: <nil>
+2023/03/21 00:58:43 api-pang-ws.go:543: o.handlBuffersByPangWSAPI: <nil>
+2023/03/21 00:58:43 api-pang-ws.go:296: OUT PangWSSubscriber: <nil>
+2023/03/21 00:58:43 main.go:521: OUT PangWSHandler: /pang/ws/sub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/21 01:00:17 main.go:455: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.31.0.1:59108
+2023/03/21 01:00:17 api-pang-ws.go:203: IN PangWSPublisher: {base} {video single mono group   }
+2023/03/21 01:00:17 data-base.go:203: timeset: milli 0 => 1ms 30s
+2023/03/21 01:00:17 api-pang-ws.go:511: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/21 01:00:17 api-pang-ws.go:548: i.recvTrackBufferInMessage: video
+2023/03/21 01:00:18 main.go:455: IN PangWSHandler: GET /pang/ws/sub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.31.0.1:59122
+2023/03/21 01:00:18 api-pang-ws.go:263: IN PangWSSubscriber: {base} {video single mono group   }
+2023/03/21 01:00:18 data-base.go:203: timeset: milli 0 => 1ms 30s
+2023/03/21 01:00:18 api-pang-ws.go:511: i.handlBuffersByPangWSAPI: /pang/ws/sub
+2023/03/21 01:00:18 api-pang-ws.go:588: i.sendTrackBufferInMessage: video
+2023/03/21 01:00:19 api-pang-ws.go:574: video video/vp8;width=640;height=480;framerate=15;interval=60;bitrate=4000000;packet=codec
+2023/03/21 01:00:20 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:21 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:22 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:23 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:24 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:25 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:26 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:27 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:28 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:29 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:30 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:31 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:32 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:33 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:34 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:35 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:36 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:37 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:38 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:39 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:40 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:41 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:42 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:43 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:44 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:45 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:46 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:47 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:48 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:49 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:50 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:51 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:52 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:53 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:54 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:55 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:56 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:57 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:58 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:00:59 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:00 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:01 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:02 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:03 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:04 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:05 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:06 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:07 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:08 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:09 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:10 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:11 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:12 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:13 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:14 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:15 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:16 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:17 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:18 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:19 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:20 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:21 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:22 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:23 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:24 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:25 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:26 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:27 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:28 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:29 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:30 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:31 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:32 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:33 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:34 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:35 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:36 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:37 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:38 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:39 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:40 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:41 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:42 api-pang-ws.go:574: video video/vp8
+2023/03/21 01:01:42 api-pang-ws.go:567: websocket: close 1001 (going away)
+2023/03/21 01:01:42 api-pang-ws.go:568: o.recvTrackBufferInMessage: <nil>
+2023/03/21 01:01:42 api-pang-ws.go:543: o.handlBuffersByPangWSAPI: <nil>
+2023/03/21 01:01:42 api-pang-ws.go:257: OUT PangWSPublisher: <nil>
+2023/03/21 01:01:42 main.go:462: websocket: close 1001 (going away)
+2023/03/21 01:01:42 main.go:521: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/21 01:02:12 api-pang-ws.go:620: timeout: 30s 1ms
+2023/03/21 01:02:12 api-pang-ws.go:621: o.sendTrackBufferInMessage: <nil>
+2023/03/21 01:02:12 api-pang-ws.go:543: o.handlBuffersByPangWSAPI: <nil>
+2023/03/21 01:02:12 api-pang-ws.go:296: OUT PangWSSubscriber: <nil>
+2023/03/21 01:02:12 main.go:521: OUT PangWSHandler: /pang/ws/sub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/21 01:02:14 main.go:455: IN PangWSHandler: GET /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video 172.31.0.1:35862
+2023/03/21 01:02:14 api-pang-ws.go:203: IN PangWSPublisher: {base} {video single mono group   }
+2023/03/21 01:02:14 data-base.go:203: timeset: milli 0 => 1ms 30s
+2023/03/21 01:02:14 api-pang-ws.go:511: i.handlBuffersByPangWSAPI: /pang/ws/pub
+2023/03/21 01:02:14 api-pang-ws.go:548: i.recvTrackBufferInMessage: video
+2023/03/21 01:02:21 api-pang-ws.go:567: websocket: close 1001 (going away)
+2023/03/21 01:02:21 api-pang-ws.go:568: o.recvTrackBufferInMessage: <nil>
+2023/03/21 01:02:21 api-pang-ws.go:543: o.handlBuffersByPangWSAPI: <nil>
+2023/03/21 01:02:21 api-pang-ws.go:257: OUT PangWSPublisher: <nil>
+2023/03/21 01:02:21 main.go:462: websocket: close 1001 (going away)
+2023/03/21 01:02:21 main.go:521: OUT PangWSHandler: /pang/ws/pub?channel=btlb3pjpc98lsdbc0lj0&track=video
+2023/03/21 04:58:34 main.go:80: Moth IoT Media Server, v0.1.2.2, (c)2021-2 TeamGRIT, Inc. started on linux/arm64
+2023/03/21 04:58:34 config-file.go:111: i.readObjectFileInArray: channel conf/channels.json
+2023/03/21 04:58:34 main.go:833: secure http3 server started on :8433
+2023/03/21 04:58:34 main.go:860: raknet udp server started on :8276
+2023/03/21 04:58:34 main.go:736: plain http server started on :8276
+2023/03/21 04:58:34 main.go:761: secure http server started on :8277
+2023/03/21 04:58:34 config-file.go:111: i.readObjectFileInArray: group conf/groups.json
+2023/03/21 04:58:34 util-license.go:75: i.parseKeyString: 
+2023/03/21 04:58:34 main.go:953: invalid license format: 
+2023/03/21 04:58:34 packet_handler_map.go:118: failed to sufficiently increase receive buffer size (was: 208 kiB, wanted: 2048 kiB, got: 416 kiB). See https://github.com/lucas-clemente/quic-go/wiki/UDP-Receive-Buffer-Size for details.
