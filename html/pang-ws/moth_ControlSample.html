@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Sample</title>
+    <script type="module" src="moth_ControlScript.js"></script>
+    <link rel="stylesheet" href="stylesControl.css">
+
+</head>
+
+<body>
+    <div class="init">
+        <div class="element">
+            <p>host</p>
+            <input type = "text" id="host" value="agilertc.com"/>
+        </div>
+        <div class="element">
+            <p>port</p>
+            <input type = "text" id="port" value="8276" />
+        </div>
+        <button type="button" id="onConnect">Connect</button>
+        <label for="channel">channel: </label>
+        <select name="channels" id="channel">
+            <option value="instant">instant</option>
+        </select>
+        <div class="element">
+            <p>instant channel name:</p>
+            <input id="channelName" />
+        </div>
+        <button type="button" id="onApply">Apply</button>
+    </div>
+
+    <div class="display">
+        <div>
+            <div>
+                <div id="outputHost"></div>
+                <div class="buttonList">
+                    <button type="button" id="onOpenSocket">Open</button>
+                    <button type="button" id="onSend">Send</button>
+                    <button type="button" id="onCloseSocket">Close</button>
+                </div>
+                <button type="button" id="keyboardSetting">KEYBOARD SETTING</button>
+            </div>
+           
+        </div>
+        <canvas id="canvas" ></canvas>
+    </div>
+
+  
+</body>
+
+</html>

@@ -9,6 +9,7 @@ export class Observer {
   static getInstance() {
     if (Observer.instance) return Observer.instance;
     Observer.instance = new Observer()
+    Observer.instance.observerInterface();
     return Observer.instance;
   }
 
@@ -33,7 +34,8 @@ export class Observer {
 
   notifyObserver(id, massage) {
     if (massage) {
-      this.observer.notify(id, massage)
+      console.log(id, massage);
+      this.observer.notify(id, massage);
       return;
     }
     this.observer.notify(id)
