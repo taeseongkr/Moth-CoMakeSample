@@ -1,8 +1,7 @@
 import { Observer } from "./observer.js";
-
 const hostInput = document.getElementById("host");
 const portInput = document.getElementById("port");
-const instantName = document.getElementById("channelName");
+// const instantName = document.getElementById("channelName");
 const selectChannel = document.getElementById("channel");
 const canvasBlank = document.getElementById("canvas");
 const ObserverInstance = Observer.getInstance();
@@ -41,16 +40,23 @@ let controlWsPub;
 let controlWsSub;
 let controlWsUrlPub;
 let controlWsUrlSub;
-let speed = 5;
-var imgObj = new Image();
-imgObj.src = "./spider.png";
-let ctx;
-const scale = Math.min(canvasBlank.width / imgObj.width, canvasBlank.height / imgObj.height);
 let imageX;
 let imageY;
-let imageHeight = imgObj.height * scale * 0.2;
-let imageWidth = imgObj.width * scale * 0.2;
-
+let speed = 5;
+let imageHeight;
+let imageWidth;
+var imgObj = new Image();
+imgObj.src = "./spider.png";
+imgObj.addEventListener("load", () => {
+  console.log("size", imgObj.naturalWidth, imgObj.naturalHeight);
+  const scale = Math.min(
+    canvasBlank.width / imgObj.naturalWidth,
+    canvasBlank.height / imgObj.naturalWidth
+  );
+  imageHeight = imgObj.naturalHeight * scale * 0.2;
+  imageWidth = imgObj.naturalWidth * scale * 0.2;
+});
+let ctx;
 var APIOptionPub = {
   mode: "pub",
   track: "colink",
@@ -159,7 +165,6 @@ const draw = (data) => {
     ctx.drawImage(img, imageX, imageY, imageWidth, imageHeight);
     ctx.closePath();
   };
-
 };
 const send = (keyObject) => {
   if (controlWsPub) {
@@ -278,7 +283,7 @@ document.getElementById("onOpenSocket").onclick = function (evt) {
     ctx = canvas.getContext("2d");
     imageX = (canvas.width - imageWidth) / 2;
     imageY = (canvas.height - imageHeight) / 2;
-    console.log('imageX', imageX);
+    console.log("imageX", imageX);
     controlWsPub = new WebSocket(controlWsUrlPub);
     controlWsPub.binaryType = "arraybuffer";
     controlWsSub = new WebSocket(controlWsUrlSub);
@@ -286,9 +291,11 @@ document.getElementById("onOpenSocket").onclick = function (evt) {
 
     controlWsPub.onopen = function () {
       printOutputHost("Open");
+      openAirGesture();
     };
     controlWsSub.onopen = function () {
       printOutputHost("Open");
+      // openAirGesture();
     };
 
     controlWsSub.onmessage = function (evt) {
@@ -319,8 +326,8 @@ document.getElementById("onOpenSocket").onclick = function (evt) {
 };
 let mimeSendInterval;
 document.getElementById("onSend").onclick = function (evt) {
-    // ctx = canvasBlank.getContext("2d");
-    // ctx.drawImage(imgObj, imageX, imageY, imageHeight, imageWidth);
+  // ctx = canvasBlank.getContext("2d");
+  // ctx.drawImage(imgObj, imageX, imageY, imageHeight, imageWidth);
   const sendData = (keyObject) => {
     if (!controlWsPub) {
       alert("Please press the open button");
@@ -343,4 +350,74 @@ document.getElementById("onCloseSocket").onclick = function (evt) {
     return false;
   };
   closeWs();
+};
+
+const openAirGesture = () => {
+  const videoElement = document.getElementsByClassName("input_video")[0];
+  const canvasElement = document.getElementsByClassName("output_canvas")[0];
+  const canvasCtx = canvasElement.getContext("2d");
+
+  function onResults(results) {
+    console.log(results);
+    canvasCtx.save();
+    canvasCtx.clearRect(0, 0, canvasElement.width, canvasElement.height);
+    canvasCtx.drawImage(
+      results.image,
+      0,
+      0,
+      canvasElement.width,
+      canvasElement.height
+    );
+    if (results.multiHandLandmarks) {
+      for (const landmarks of results.multiHandLandmarks) {
+        if (
+          landmarks[12].y < landmarks[11].y &&
+          landmarks[8].y < landmarks[7].y
+        ) {
+          controlWsPub.send(keyObject.D);
+          ObserverInstance.notifyObserver("send", keyObject.D);
+        } else if (landmarks[8].y < landmarks[7].y) {
+          controlWsPub.send(keyObject.A);
+          ObserverInstance.notifyObserver("send", keyObject.A);
+        } else if (landmarks[20].y < landmarks[19].y) {
+          controlWsPub.send(keyObject.S);
+          ObserverInstance.notifyObserver("send", keyObject.S);
+        } else if (landmarks[4].y < landmarks[3].y) {
+          controlWsPub.send(keyObject.W);
+          ObserverInstance.notifyObserver("send", keyObject.W);
+        } else {
+          controlWsPub.send("send", "STOP");
+        }
+        drawConnectors(canvasCtx, landmarks, HAND_CONNECTIONS, {
+          color: "#00FF00",
+          lineWidth: 5,
+        });
+        drawLandmarks(canvasCtx, landmarks, { color: "#FF0000", lineWidth: 2 });
+      }
+    }
+    canvasCtx.restore();
+  }
+
+  const hands = new Hands({
+    locateFile: (file) => {
+      return `https://cdn.jsdelivr.net/npm/@mediapipe/hands/${file}`;
+    },
+  });
+  hands.setOptions({
+    maxNumHands: 2,
+    modelComplexity: 1,
+    minDetectionConfidence: 0.7, // Increase the minimum detection confidence to 70%
+    detectionConfidenceThreshold: 0.5, // Require a minimum confidence of 50% for each landmark
+    minTrackingConfidence: 0.7, // Increase the minimum tracking confidence to 70%
+    maxDetectionRetries: 2,
+  });
+  hands.onResults(onResults);
+  const camera = new Camera(videoElement, {
+    onFrame: async () => {
+      await hands.send({ image: videoElement });
+    },
+    width: 300,
+    height: 300,
+  });
+  camera.start();
 };

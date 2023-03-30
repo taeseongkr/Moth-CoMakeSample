@@ -19,7 +19,9 @@ select {
     font-size: 20px;
     padding: 10px 20px;
 }
-
+#container {
+    border: 1px solid black;
+}
 .init {
     display: flex;
     flex-direction: row;
@@ -65,6 +67,7 @@ select {
     border-style: solid;
     margin: 0px 10px 0px 10px;
     align-items: center;
+    justify-content: center;
 }
 #outputClient {
     display: block;

@@ -8,6 +8,14 @@
     <title>Control Sample</title>
     <script type="module" src="moth_ControlScript.js"></script>
     <link rel="stylesheet" href="stylesControl.css">
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+
+</head>
 
 </head>
 
@@ -15,11 +23,11 @@
     <div class="init">
         <div class="element">
             <p>host</p>
-            <input type = "text" id="host" value="agilertc.com"/>
+            <input type="text" id="host" value="agilertc.com" />
         </div>
         <div class="element">
             <p>port</p>
-            <input type = "text" id="port" value="8276" />
+            <input type="text" id="port" value="8276" />
         </div>
         <button type="button" id="onConnect">Connect</button>
         <label for="channel">channel: </label>
@@ -44,12 +52,16 @@
                 </div>
                 <button type="button" id="keyboardSetting">KEYBOARD SETTING</button>
             </div>
-           
+
         </div>
-        <canvas id="canvas" ></canvas>
+        <canvas id="canvas"></canvas>
+        <div class="container">
+            <video class="input_video"></video>
+            <canvas class="output_canvas"></canvas>
+        </div>
     </div>
 
-  
+
 </body>
 
 </html>
